@@ -1,0 +1,528 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.merzensumagaysay.thesis2.user.HomeFragment">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:orientation="vertical"
+                android:layout_height="match_parent">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_weight="1"
+                    android:layout_height="match_parent">
+
+                    <RelativeLayout
+                        android:id="@+id/csb"
+                        android:layout_width="match_parent"
+                        android:layout_weight="0.65"
+                        android:background="@color/black1"
+                        android:layout_height="match_parent">
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_centerInParent="true"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/relativeLayout2">
+
+
+                        </RelativeLayout>
+
+                        <TextView
+                            android:id="@+id/dlscsbtxt"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentTop="true"
+                            android:layout_centerHorizontal="true"
+                            android:layout_marginTop="12dp"
+                            android:text="DE LA SALLE-COLLEGE OF SAINT BENILDE"
+                            android:textAlignment="center"
+                            android:textColor="@color/white"
+                            android:textSize="14sp" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/dlscsbtxt"
+                            android:layout_centerHorizontal="true"
+                            android:text="CENTER FOR EMERGENCY MANAGEMENT, SAFETY AND SECURITY (CEMSS)"
+                            android:textAlignment="center"
+                            android:textColor="@color/white"
+                            android:textSize="14sp" />
+
+
+                    </RelativeLayout>
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_weight="1"
+                    android:layout_height="match_parent">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="0.65"
+                        android:background="@color/darklime">
+
+                        <RelativeLayout
+                            android:id="@+id/rl3"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_centerInParent="true">
+
+
+                        </RelativeLayout>
+
+                        <TextView
+                            android:id="@+id/txt1"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignLeft="@+id/txt2"
+                            android:layout_alignStart="@+id/txt2"
+                            android:layout_marginTop="12dp"
+                            android:text="DIRECT LINES"
+                            android:textAlignment="center"
+                            android:textColor="@color/black1"
+                            android:textSize="8sp" />
+
+                        <TextView
+                            android:id="@+id/txt2"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentLeft="true"
+                            android:layout_alignParentStart="true"
+                            android:layout_below="@+id/txt1"
+                            android:layout_marginLeft="28dp"
+                            android:layout_marginStart="28dp"
+                            android:text="230-5197 to 99"
+                            android:textAlignment="center"
+                            android:textColor="@color/black1"
+                            android:textSize="12sp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/txt3"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignLeft="@+id/txt4"
+                            android:layout_alignStart="@+id/txt4"
+                            android:layout_below="@+id/rl3"
+                            android:text="MOBILE HOTLINE"
+                            android:textAlignment="center"
+                            android:textColor="@color/black1"
+                            android:textSize="8sp" />
+
+                        <TextView
+                            android:id="@+id/txt4"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+
+                            android:layout_alignLeft="@+id/txt2"
+                            android:layout_alignStart="@+id/txt2"
+                            android:layout_below="@+id/txt3"
+                            android:text="0925-5280156"
+                            android:textAlignment="center"
+                            android:textColor="@color/black1"
+                            android:textSize="12sp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/txt5"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignBaseline="@+id/txt1"
+                            android:layout_alignBottom="@+id/txt1"
+                            android:layout_marginLeft="86dp"
+                            android:layout_marginStart="86dp"
+                            android:layout_toEndOf="@+id/txt2"
+                            android:layout_toRightOf="@+id/txt2"
+                            android:text="TRUNK LINE"
+                            android:textAlignment="center"
+                            android:textColor="@color/black1"
+                            android:textSize="8sp" />
+
+                        <TextView
+                            android:id="@+id/txt6"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+
+                            android:layout_alignLeft="@+id/txt5"
+                            android:layout_alignStart="@+id/txt5"
+                            android:layout_below="@+id/txt5"
+                            android:text="230-5100"
+                            android:textAlignment="center"
+                            android:textColor="@color/black1"
+                            android:textSize="12sp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/txt7"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_above="@+id/txt4"
+                            android:layout_alignLeft="@+id/txt6"
+                            android:layout_alignStart="@+id/txt6"
+                            android:text="TAFT loc. 1000 | 1911"
+                            android:textAlignment="center"
+                            android:textColor="@color/black1"
+                            android:textSize="8sp" />
+
+                        <TextView
+                            android:id="@+id/txt8"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignEnd="@+id/txt7"
+                            android:layout_alignRight="@+id/txt7"
+                            android:layout_alignTop="@+id/txt4"
+                            android:text="AKIC loc. 2000 | 2911"
+                            android:textAlignment="center"
+                            android:textColor="@color/black1"
+                            android:textSize="8sp" />
+
+                        <TextView
+                            android:id="@+id/txt9"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignLeft="@+id/txt8"
+                            android:layout_alignStart="@+id/txt8"
+                            android:layout_below="@+id/txt8"
+                            android:text=" SDA loc. 3000 | 3911"
+                            android:textAlignment="center"
+                            android:textColor="@color/black1"
+                            android:textSize="8sp" />
+
+
+                    </RelativeLayout>
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_weight="1"
+                    android:layout_marginTop="5dp"
+                    android:layout_height="match_parent">
+
+                    <RelativeLayout
+                        android:id="@+id/hotline1"
+                        android:layout_width="220dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="0.95"
+                        android:layout_marginRight="2dp"
+                        android:background="@color/red">
+
+                        <RelativeLayout
+                            android:id="@+id/relativeLayout"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_centerInParent="true">
+
+
+                        </RelativeLayout>
+
+                        <TextView
+                            android:id="@+id/textView"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentLeft="true"
+                            android:layout_alignParentStart="true"
+                            android:layout_below="@+id/imageView3"
+                            android:text="EMERGENCY NUMBERS"
+                            android:textAlignment="center"
+                            android:textColor="@color/white"
+                            android:textSize="10sp" />
+
+                        <ImageView
+                            android:id="@+id/imageView3"
+                            android:layout_width="60dp"
+                            android:layout_height="60dp"
+                            android:layout_alignParentTop="true"
+                            android:layout_centerHorizontal="true"
+                            android:adjustViewBounds="true"
+                            android:padding="8dp"
+                            android:scaleType="centerInside"
+                            android:src="@drawable/ic_enumber" />
+
+
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:id="@+id/hotline1a"
+                        android:layout_width="match_parent"
+                        android:layout_weight="0.55"
+                        android:background="@color/lightred"
+                        android:layout_height="match_parent">
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_centerInParent="true"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/relativeLayout3">
+
+
+                        </RelativeLayout>
+
+                        <TextView
+                            android:id="@+id/tx1"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="11dp"
+                            android:layout_marginStart="11dp"
+                            android:text="CITY OF MANILA"
+                            android:textAlignment="center"
+                            android:textColor="@color/white"
+                            android:textSize="10sp" />
+
+                        <TextView
+                            android:id="@+id/tx2"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignLeft="@+id/tx1"
+                            android:layout_alignStart="@+id/tx1"
+                            android:layout_below="@+id/tx1"
+                            android:text="Mayor's Office"
+                            android:textAlignment="center"
+                            android:textColor="@color/white"
+                            android:textSize="8sp" />
+
+                        <TextView
+                            android:id="@+id/tx3"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignLeft="@+id/tx2"
+                            android:layout_alignStart="@+id/tx2"
+                            android:layout_below="@+id/tx2"
+                            android:text="527-4991"
+                            android:textAlignment="center"
+                            android:textColor="@color/white"
+                            android:textSize="10sp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/tx4"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignLeft="@+id/tx3"
+                            android:layout_alignStart="@+id/tx3"
+                            android:layout_alignTop="@+id/relativeLayout3"
+                            android:text="FIRE"
+                            android:textAlignment="center"
+                            android:textColor="@color/white"
+                            android:textSize="10sp" />
+
+                        <TextView
+                            android:id="@+id/tx5"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignLeft="@+id/tx4"
+                            android:layout_alignStart="@+id/tx4"
+                            android:layout_below="@+id/tx4"
+                            android:text="Bureau of Fire Protection NCR"
+                            android:textAlignment="center"
+                            android:textColor="@color/white"
+                            android:textSize="8sp" />
+
+                        <TextView
+                            android:id="@+id/tx6"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignLeft="@+id/tx5"
+                            android:layout_alignStart="@+id/tx5"
+                            android:layout_below="@+id/tx5"
+                            android:text="729-5166"
+                            android:textAlignment="center"
+                            android:textColor="@color/white"
+                            android:textSize="10sp"
+                            android:textStyle="bold" />
+
+
+                    </RelativeLayout>
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_weight="1"
+                    android:layout_marginTop="5dp"
+                    android:layout_height="match_parent">
+
+                    <RelativeLayout
+                        android:id="@+id/hotline2a"
+                        android:layout_width="match_parent"
+                        android:layout_weight="0.15"
+                        android:background="@color/orange"
+                        android:layout_height="match_parent">
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_centerInParent="true"
+                            android:layout_height="wrap_content">
+
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_centerHorizontal="true"
+                                android:text="NUM"
+                                android:textSize="14sp"
+                                android:textAlignment="center" />
+
+
+                        </RelativeLayout>
+
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:id="@+id/hotline2"
+                        android:layout_width="match_parent"
+                        android:layout_weight="0.55"
+                        android:background="@color/darkorange"
+                        android:layout_marginLeft="2dp"
+                        android:layout_height="match_parent">
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_centerInParent="true"
+                            android:layout_height="wrap_content">
+
+                            <ImageView
+                                android:id="@+id/imageView4"
+                                android:layout_width="60dp"
+                                android:layout_height="60dp"
+                                android:layout_alignParentTop="true"
+                                android:layout_centerHorizontal="true"
+                                android:adjustViewBounds="true"
+                                android:padding="8dp"
+                                android:scaleType="centerInside"
+                                android:src="@drawable/ic_ehotlines" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_below="@+id/imageView4"
+                                android:layout_centerHorizontal="true"
+                                android:text="EMERGENCY HOTLINES"
+                                android:textAlignment="center"
+                                android:textColor="@color/white"
+                                android:textSize="10sp" />
+
+
+                        </RelativeLayout>
+
+
+
+                    </RelativeLayout>
+
+
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:layout_marginTop="5dp">
+
+                    <RelativeLayout
+                        android:id="@+id/hotline3"
+                        android:layout_width="191dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="0.55"
+                        android:layout_marginRight="2dp"
+                        android:background="@color/darkestblue">
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentEnd="true"
+                            android:layout_alignParentRight="true"
+                            android:layout_centerVertical="true">
+
+                            <ImageView
+                                android:id="@+id/imageView5"
+                                android:layout_width="60dp"
+                                android:layout_height="60dp"
+                                android:layout_alignParentTop="true"
+                                android:layout_centerHorizontal="true"
+                                android:adjustViewBounds="true"
+                                android:padding="8dp"
+                                android:scaleType="centerInside"
+                                android:src="@drawable/ic_hospital" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_below="@+id/imageView5"
+                                android:layout_centerHorizontal="true"
+                                android:text="HOSPITALS"
+                                android:textAlignment="center"
+                                android:textColor="@color/white"
+                                android:textSize="10sp" />
+
+
+                        </RelativeLayout>
+
+
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:id="@+id/hotline3a"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="0.55"
+                        android:background="@color/darkerblue">
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_centerInParent="true">
+
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_centerHorizontal="true"
+                                android:text="NUM"
+                                android:textAlignment="center"
+                                android:textSize="14sp" />
+
+
+                        </RelativeLayout>
+
+
+                    </RelativeLayout>
+
+
+                </LinearLayout>
+
+
+
+
+            </LinearLayout>
+
+
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+</RelativeLayout>

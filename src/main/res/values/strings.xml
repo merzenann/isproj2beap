@@ -1,0 +1,49 @@
+<resources>
+    <string name="app_name">thesis2</string>
+    <string name="title_activity_isproj2">isproj2</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    //location
+    <string-array name="map">
+        <item>Ground Floor</item>
+        <item>Benilde Building</item>
+        <item>Duerr Building</item>
+        <item>Mutien Building</item>
+        <item>Solomon Building</item>
+        <item>MFC Building</item>
+    </string-array>
+
+    //add instructions
+    <array name="instructions">
+        <item>Active Shooter</item>
+        <item>Earthquake</item>
+        <item>Bomb Threat</item>
+        <item>Flood</item>
+        <item>Fire</item>
+    </array>
+
+    <string name="title_activity_second">SecondActivity</string>
+    <string name="title_activity_message">Message</string>
+    <string name="title_activity_send_amsg">SendAMsg</string>
+    <string name="title_activity_msg">MsgActivity</string>
+    <string name="title_activity_optional_message">OptionalMessage</string>
+    <string name="title_activity_push_notif">PushNotif</string>
+    <string name="asset_statements" translatable="false">[{ \"include\": \"https://testing.com/.well-known/assetlinks.json\" }]</string>
+    <string name="title_activity_user">User</string>
+    <string name="appbar_scrolling_view_behavior" />
+
+    <string name="app_name2">NavBar</string>
+    <string name="Open">NavBar</string>
+    <string name="Close">NavBar</string>
+    <string name="title_activity_login">LoginActivity</string>
+
+    <string name="app_name3">NavBar2</string>
+    <string name="Open2">NavBar2</string>
+    <string name="Close2">NavBar2</string>
+    <string name="title_activity_login2">LoginActivity</string>
+</resources>
